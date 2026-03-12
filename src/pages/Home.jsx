@@ -13,6 +13,7 @@ function Home(){
     return (
         <div className="container mt-4">
             <div className="row">
+            <p>oi</p>
                 {produtos.map(produto => (
                     <ProdutosCard
                         key={produto.id}
