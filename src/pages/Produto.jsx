@@ -66,8 +66,7 @@ function Produto(){
             .catch(err => setErro(err.message))
             .finally(() => setLoading(false));
     }, [id]);
-
-    // ✅ ordem correta
+    
     if(erro){
         return <h3 className="text-center mt-5 text-danger">{erro}</h3>
     }
